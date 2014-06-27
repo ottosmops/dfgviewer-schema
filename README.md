@@ -8,7 +8,7 @@ von Metadaten für den DFG-Viewer.
 - [RelaxNG Compact Syntax](relaxng/dvrights.rnc "Rechteangaben, RNC")
 - [RelaxNG](relaxng/dvrights.rng "Rechteangaben, RNG")
 
-## Verweis auf Katalognachweise und lokale Präsentation (<dv:links>)
+## Verweise (<dv:links>)
 
 - [RelaxNG Compact Syntax](relaxng/dvlinks.rnc "Verweise, RNC")
 - [RelaxNG](relaxng/dvlinks.rng "Verweise, RNG")
