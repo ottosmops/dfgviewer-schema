@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+  <skos:Concept rdf:ID="MIN">
+    <skos:notation>MIN</skos:notation>
+    <skos:prefLabel>Kleinstmögliche Zoomstufe</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="DEFAULT">
+    <skos:notation>DEFAULT</skos:notation>
+    <skos:prefLabel>Normale Zoomstufe</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="MAX">
+    <skos:notation>MAX</skos:notation>
+    <skos:prefLabel>Größtmögliche Zoomstufe</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="THUMBS">
+    <skos:notation>THUMBS</skos:notation>
+    <skos:prefLabel>Kleine Vorschaubilder</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="TEASER">
+    <skos:notation>TEASER</skos:notation>
+    <skos:prefLabel>Voransichten</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="SPECIAL">
+    <skos:notation>SPECIAL</skos:notation>
+    <skos:prefLabel>Spezielle Aufnahmetechniken</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="FULLTEXT">
+    <skos:notation>FULLTEXT</skos:notation>
+    <skos:prefLabel>Volltext- und Layoutinformationen</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>
