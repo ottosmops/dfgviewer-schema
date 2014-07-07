@@ -12,3 +12,8 @@ von Metadaten für den DFG-Viewer.
 
 - [RelaxNG Compact Syntax](relaxng/dvlinks.rnc "Verweise, RNC")
 - [RelaxNG](relaxng/dvlinks.rng "Verweise, RNG")
+
+## Hilfsdaten
+
+- [RDF/XML des Strukturdatensets](util/strukturdatenset.rdf "Strukturdatenset, RDF/XML")
+- [RDF/XML der zulässigen METS Dateigruppen](util/filegrp-use.rdf "METS Dateigruppen, RDF/XML")
