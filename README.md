@@ -13,7 +13,7 @@ von Metadaten für den DFG-Viewer.
 - [RelaxNG Compact Syntax](relaxng/dvlinks.rnc "Verweise, RNC")
 - [RelaxNG](relaxng/dvlinks.rng "Verweise, RNG")
 
-# METS
+## METS
 
 - [ISO Schematron](schematron/mets.sch "METS, ISO-Schematron")
 - [XSLT 1.0 Stylesheet](schematron/mets.xsl "METS, XSLT 1.0 Stylesheet")
