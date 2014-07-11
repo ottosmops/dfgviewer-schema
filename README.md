@@ -3,6 +3,8 @@
 Dieses Repository versammelt verschiedene Schemata für die Validierung
 von Metadaten für den DFG-Viewer.
 
+Alle Dateien sind noch als *work in progress* zu betrachten.
+
 ## Rechteangaben (<dv:rights>)
 
 - [RelaxNG Compact Syntax](relaxng/dvrights.rnc "Rechteangaben, RNC")
@@ -17,6 +19,7 @@ von Metadaten für den DFG-Viewer.
 
 - [ISO Schematron](schematron/mets.sch "METS, ISO-Schematron")
 - [XSLT 1.0 Stylesheet](schematron/mets.xsl "METS, XSLT 1.0 Stylesheet")
+- [NVDL Skript](nvdl/mets.nvdl "METS, NVDL Skript")
 
 ## Hilfsdaten
 
