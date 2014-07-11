@@ -8,9 +8,6 @@
         <context path="amdSec/digiprovMD/mdWrap/xmlData" useMode="dvlinks"/>
       </validate>
     </namespace>
-    <anyNamespace>
-      <attachPlaceholder/>
-    </anyNamespace>
   </mode>
   <mode name="mods">
     <namespace ns="http://www.loc.gov/mods/v3">
