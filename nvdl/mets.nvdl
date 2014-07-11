@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0" startMode="mets">
+  <mode name="mets">
+    <namespace ns="http://www.loc.gov/METS/">
+      <validate schema="http://www.loc.gov/standards/mets/mets.xsd">
+        <context path="dmdSec/mdWrap/xmlData" useMode="mods"/>
+        <context path="amdSec/rightsMD/mdWrap/xmlData" useMode="dvrights"/>
+        <context path="amdSec/digiprovMD/mdWrap/xmlData" useMode="dvlinks"/>
+      </validate>
+    </namespace>
+    <anyNamespace>
+      <attachPlaceholder/>
+    </anyNamespace>
+  </mode>
+  <mode name="mods">
+    <namespace ns="http://www.loc.gov/mods/v3">
+      <attach/>
+      <validate schema="http://www.loc.gov/standards/mods/v3/mods-3-4.xsd"/>
+    </namespace>
+  </mode>
+  <mode name="dvlinks">
+    <namespace ns="http://dfg-viewer.de/">
+      <attach/>
+      <validate schema="../relaxng/dvlinks.rng"/>
+    </namespace>
+  </mode>
+  <mode name="dvrights">
+    <namespace ns="http://dfg-viewer.de/">
+      <attach/>
+      <validate schema="../relaxng/dvrights.rng"/>
+    </namespace>
+  </mode>
+</rules>
