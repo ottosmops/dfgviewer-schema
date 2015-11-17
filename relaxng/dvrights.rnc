@@ -2,7 +2,7 @@
 #
 # Rechteangaben
 #
-#
+# Timestamp: <2015-11-17 10:04:33 Maus>
 # Autor: David Maus <maus@hab.de>
 #
 
@@ -44,4 +44,4 @@ sponsorSiteURL =
    element sponsorSiteURL { xsd:anyURI }
 
 license =
-   element license { "cc0" | "cc-by" | "cc-by-sa" | "cc-by-nd" | "cc-by-nc" | "cc-by-nc-sa" | "cc-by-nc-nd" | "reserved" }
+   element license { "pdm" | "cc0" | "cc-by" | "cc-by-sa" | "cc-by-nd" | "cc-by-nc" | "cc-by-nc-sa" | "cc-by-nc-nd" | "reserved" }
