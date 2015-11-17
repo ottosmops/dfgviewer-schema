@@ -12,7 +12,8 @@ start = links
 links =
    element links {
       reference+,
-      presentation?
+      presentation?,
+      sru?
    }
 
 reference =
@@ -23,5 +24,10 @@ reference =
 
 presentation =
    element presentation {
+      xsd:anyURI
+   }
+
+sru =
+   element sru {
       xsd:anyURI
    }
