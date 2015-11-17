@@ -11,7 +11,7 @@
   </skos:Concept>
   <skos:Concept rdf:ID="MAX">
     <skos:notation>MAX</skos:notation>
-    <skos:prefLabel xml:lang="de">Größtmögliche Zoomstufe</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Größtmögliche statische Zoomstufe</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:ID="THUMBS">
     <skos:notation>THUMBS</skos:notation>
@@ -28,5 +28,9 @@
   <skos:Concept rdf:ID="FULLTEXT">
     <skos:notation>FULLTEXT</skos:notation>
     <skos:prefLabel xml:lang="de">Volltext- und Layoutinformationen</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="ZOOM">
+    <skos:notation>ZOOM</skos:notation>
+    <skos:prefLabel xml:lang="de">Größtmögliche dynamische Zoomstufe</skos:prefLabel>
   </skos:Concept>
 </rdf:RDF>
