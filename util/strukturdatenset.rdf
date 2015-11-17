@@ -3,7 +3,7 @@
   <skos:ConceptScheme>
     <dc:title xml:lang="de">Strukturdatenset des DFG-Viewer</dc:title>
     <rdfs:seeAlso rdf:resource="http://dfg-viewer.de/strukturdatenset/"/>
-  </skos:ConceptScheme>
+  </skos:ConceptScheme>  
   <skos:Concept rdf:ID="section">
     <skos:notation>section</skos:notation>
     <skos:prefLabel xml:lang="de">Abschnitt</skos:prefLabel>
@@ -249,4 +249,96 @@
     <skos:prefLabel xml:lang="de">Widmung</skos:prefLabel>
     <skos:prefLabel xml:lang="en">dedication</skos:prefLabel>
   </skos:Concept>
+
+  <skos:Concept rdf:ID="bachelor_thesis">
+    <skos:notation>bachelor_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Bachelorarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">bachelor thesis</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="day">
+    <skos:notation>day</skos:notation>
+    <skos:prefLabel xml:lang="de">Tag</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">day</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="diploma_thesis">
+    <skos:notation>diploma_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Diplomarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">diploma thesis</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="doctoral_thesis">
+    <skos:notation>doctoral_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Dissertation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">doctoral thesis</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="habilitation_thesis">
+    <skos:notation>habilitation_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Habilitation</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">habilitation thesis</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="lecture">
+    <skos:notation>lecture</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorlesung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">lecture</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="magister_thesis">
+    <skos:notation>magister_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Magisterarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">magister thesis</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="master_thesis">
+    <skos:notation>master_thesis</skos:notation>
+    <skos:prefLabel xml:lang="de">Masterarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">master thesis</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="month">
+    <skos:notation>month</skos:notation>
+    <skos:prefLabel xml:lang="de">Monat</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">month</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="newspaper">
+    <skos:notation>newspaper</skos:notation>
+    <skos:prefLabel xml:lang="de">Zeitung</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">newspaper</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="paper">
+    <skos:notation>paper</skos:notation>
+    <skos:prefLabel xml:lang="de">Vortrag</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="preprint">
+    <skos:notation>preprint</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorabdruck</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">preprint</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="proceeding">
+    <skos:notation>proceeding</skos:notation>
+    <skos:prefLabel xml:lang="de">Tagungsband</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">proceeding</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="report">
+    <skos:notation>report</skos:notation>
+    <skos:prefLabel xml:lang="de">Bericht</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">report</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="research_paper">
+    <skos:notation>research_paper</skos:notation>
+    <skos:prefLabel xml:lang="de">Forschungsarbeit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">research paper</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="study">
+    <skos:notation>study</skos:notation>
+    <skos:prefLabel xml:lang="de">Studie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">study</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:ID="year">
+    <skos:notation>year</skos:notation>
+    <skos:prefLabel xml:lang="de">Jahr</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">year</skos:prefLabel>
+  </skos:Concept>
+  <!-- 2015-11-17  David Maus  <maus@hab.de> : Doppelt belegt, siehe 'Heft' -->
+  <!-- <skos:Concept rdf:ID="issue"> -->
+  <!--   <skos:notation>issue</skos:notation> -->
+  <!--   <skos:prefLabel xml:lang="de">Ausgabe</skos:prefLabel> -->
+  <!--   <skos:prefLabel xml:lang="en">issue</skos:prefLabel> -->
+  <!-- </skos:Concept> -->
 </rdf:RDF>
