@@ -159,7 +159,10 @@
     <skos:prefLabel xml:lang="de">Initialschmuck</skos:prefLabel>
     <skos:prefLabel xml:lang="en">initial decoration</skos:prefLabel>
   </skos:Concept>
-  <skos:Concept rdf:ID="issue"><skos:notation>issue</skos:notation><skos:prefLabel xml:lang="de">Ausgabe</skos:prefLabel><skos:altLabel xml:lang="de">Heft</skos:altLabel>&gt;
+  <skos:Concept rdf:ID="issue">
+    <skos:notation>issue</skos:notation>
+    <skos:prefLabel xml:lang="de">Ausgabe</skos:prefLabel>
+    <skos:altLabel xml:lang="de">Heft</skos:altLabel>
     <skos:prefLabel xml:lang="en">issue</skos:prefLabel></skos:Concept>
   <skos:Concept rdf:ID="lecture">
     <skos:notation>lecture</skos:notation>
