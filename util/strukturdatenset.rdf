@@ -3,7 +3,7 @@
   <skos:ConceptScheme>
     <dc:title xml:lang="de">Strukturdatenset des DFG-Viewer</dc:title>
     <rdfs:seeAlso rdf:resource="http://dfg-viewer.de/strukturdatenset/"/>
-  </skos:ConceptScheme>  
+  </skos:ConceptScheme>
   <skos:Concept rdf:ID="section">
     <skos:notation>section</skos:notation>
     <skos:prefLabel xml:lang="de">Abschnitt</skos:prefLabel>
@@ -116,7 +116,8 @@
   </skos:Concept>
   <skos:Concept rdf:ID="issue">
     <skos:notation>issue</skos:notation>
-    <skos:prefLabel xml:lang="de">Heft</skos:prefLabel>
+    <skos:prefLabel xml:lang="de">Ausgabe</skos:prefLabel>
+    <skos:altLabel xml:lang="de">Heft</skos:altLabel>>
     <skos:prefLabel xml:lang="en">issue</skos:prefLabel>
   </skos:Concept>
   <skos:Concept rdf:ID="illustration">
@@ -335,10 +336,4 @@
     <skos:prefLabel xml:lang="de">Jahr</skos:prefLabel>
     <skos:prefLabel xml:lang="en">year</skos:prefLabel>
   </skos:Concept>
-  <!-- 2015-11-17  David Maus  <maus@hab.de> : Doppelt belegt, siehe 'Heft' -->
-  <!-- <skos:Concept rdf:ID="issue"> -->
-  <!--   <skos:notation>issue</skos:notation> -->
-  <!--   <skos:prefLabel xml:lang="de">Ausgabe</skos:prefLabel> -->
-  <!--   <skos:prefLabel xml:lang="en">issue</skos:prefLabel> -->
-  <!-- </skos:Concept> -->
 </rdf:RDF>
