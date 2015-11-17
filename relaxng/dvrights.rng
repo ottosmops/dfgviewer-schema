@@ -4,7 +4,7 @@
   
   Rechteangaben
   
-  
+  Timestamp: <2015-11-17 10:04:33 Maus>
   Autor: David Maus <maus@hab.de>
   
 -->
@@ -70,6 +70,7 @@
   <define name="license">
     <element name="license">
       <choice>
+        <value>pdm</value>
         <value>cc0</value>
         <value>cc-by</value>
         <value>cc-by-sa</value>

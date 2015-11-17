@@ -19,6 +19,9 @@
       <optional>
         <ref name="presentation"/>
       </optional>
+      <optional>
+        <ref name="sru"/>
+      </optional>
     </element>
   </define>
   <define name="reference">
@@ -31,6 +34,11 @@
   </define>
   <define name="presentation">
     <element name="presentation">
+      <data type="anyURI"/>
+    </element>
+  </define>
+  <define name="sru">
+    <element name="sru">
       <data type="anyURI"/>
     </element>
   </define>
