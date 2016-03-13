@@ -29,7 +29,7 @@
   <mode name="digiprovMD">
     <namespace ns="http://dfg-viewer.de/">
       <attach/>
-      <validate schema="relaxng/dvlinks.rng"/>
+      <validate schema="../relaxng/dvlinks.rng"/>
     </namespace>
     <anyNamespace>
       <reject/>
@@ -38,7 +38,7 @@
   <mode name="rightsMD">
     <namespace ns="http://dfg-viewer.de/">
       <attach/>
-      <validate schema="relaxng/dvrights.rng"/>
+      <validate schema="../relaxng/dvrights.rng"/>
     </namespace>
     <anyNamespace>
       <reject/>
