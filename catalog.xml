@@ -8,4 +8,6 @@
        uri="ext/mods.xsd"/>
   <uri name="http://www.loc.gov/mods/xml.xsd"
        uri="ext/xml.xsd"/>
+  <uri name="http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"
+       uri="ext/oai-pmh.xsd"/>
 </catalog>
