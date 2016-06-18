@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" xml:lang="deu">
   <title>Regeln des DFG-Viwer METS-Anwendungsprofil 2.1 (Entwurf)</title>
   <ns prefix="mets" uri="http://www.loc.gov/METS/"/>
@@ -31,7 +31,7 @@
       <assert test="count(mets:mptr) &lt; 2">
         Jedes mets:div darf nur ein mets:mptr enthalten.
       </assert>
-      <assert test="@TYPE and document('../util/strukturdatenset.rdf')//skos:Concept[skos:notation = current()/@TYPE]">
+      <assert test="@TYPE and document('../vocab/strukturdatenset.rdf')//skos:Concept[skos:notation = current()/@TYPE]">
         Im Attribut @TYPE muss die Art des Strukturelements näher bezeichnet werden. Es sind nur Werte aus der
         DFG-Viewer-Strukturdatenliste erlaubt.
       </assert>
@@ -111,7 +111,7 @@
       </assert>
     </rule>
     <rule context="mets:fileGrp">
-      <assert test="document('../util/filegrp-use.rdf')//skos:Concept[skos:notation = current()/@USE]">
+      <assert test="document('../vocab/filegrp-use.rdf')//skos:Concept[skos:notation = current()/@USE]">
         Der Wert des @USE-Attributs muss aus der Liste der zulässigen Werte stammen.
       </assert>
     </rule>
