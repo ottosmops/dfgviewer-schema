@@ -1,0 +1,4 @@
+<xproc-config xmlns="http://xmlcalabash.com/ns/configuration">
+  <entity-resolver class-name="org.xmlresolver.Resolver"/>
+  <uri-resolver class-name="org.xmlresolver.Resolver"/>
+</xproc-config>
