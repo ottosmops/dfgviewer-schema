@@ -232,7 +232,7 @@
 <axsl:template match="mets:mets" priority="1001" mode="M11"><svrl:fired-rule xmlns:svrl="http://purl.oclc.org/dsdl/svrl" context="mets:mets"/>
 
 		<!--ASSERT -->
-<axsl:choose><axsl:when test="mets:dmdSec[@ID = /mets:mets/mets:structMap[@TYPE = 'LOGICAL'][1]/mets:div/@DMDID]"/><axsl:otherwise><svrl:failed-assert xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:schold="http://www.ascc.net/xml/schematron" test="mets:dmdSec[@ID = /mets:mets/mets:structMap[@TYPE = 'LOGICAL'][1]/mets:div/@DMDID]"><axsl:attribute name="location"><axsl:apply-templates select="." mode="schematron-get-full-path"/></axsl:attribute><svrl:text>
+<axsl:choose><axsl:when test="mets:dmdSec[@ID = ../mets:structMap[@TYPE = 'LOGICAL'][1]/mets:div/@DMDID]"/><axsl:otherwise><svrl:failed-assert xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:schold="http://www.ascc.net/xml/schematron" test="mets:dmdSec[@ID = ../mets:structMap[@TYPE = 'LOGICAL'][1]/mets:div/@DMDID]"><axsl:attribute name="location"><axsl:apply-templates select="." mode="schematron-get-full-path"/></axsl:attribute><svrl:text>
         Es muss mindestens eine mets:dmdSec für das primäre logische Strukturelement definiert sein.
       </svrl:text></svrl:failed-assert></axsl:otherwise></axsl:choose><axsl:apply-templates select="@*|*" mode="M11"/></axsl:template>
 

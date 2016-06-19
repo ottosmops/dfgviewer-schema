@@ -129,7 +129,7 @@
   <pattern>
     <title>Deskriptive Metadaten (2.5)</title>
     <rule context="mets:mets">
-      <assert test="mets:dmdSec[@ID = /mets:mets/mets:structMap[@TYPE = 'LOGICAL'][1]/mets:div/@DMDID]">
+      <assert test="mets:dmdSec[@ID = ../mets:structMap[@TYPE = 'LOGICAL'][1]/mets:div/@DMDID]">
         Es muss mindestens eine mets:dmdSec für das primäre logische Strukturelement definiert sein.
       </assert>
     </rule>
