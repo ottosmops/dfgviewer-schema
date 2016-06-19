@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <rewriteURI uriStartString="http://dmaus.name/rdf/dfgviewer-schema/" rewritePrefix="src/vocab/"/>
+  <uri name="http://www.loc.gov/standards/mets/mets.xsd" uri="src/schema/extern/mets.xsd"/>
+  <uri name="http://www.loc.gov/standards/xlink/xlink.xsd" uri="src/schema/extern/xlink.xsd"/>
+  <uri name="http://www.loc.gov/standards/mods/v3/mods.xsd" uri="src/schema/extern/mods.xsd"/>
+  <uri name="http://www.loc.gov/mods/xml.xsd" uri="src/schema/extern/xml.xsd"/>
+  <uri name="http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd" uri="src/schema/extern/oai-pmh.xsd"/>
+</catalog>
