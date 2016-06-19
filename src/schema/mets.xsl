@@ -85,7 +85,7 @@
       </svrl:text></svrl:failed-assert></axsl:otherwise></axsl:choose>
 
 		<!--ASSERT -->
-<axsl:choose><axsl:when test="@TYPE and document('../vocab/strukturdatenset.rdf')//skos:Concept[skos:notation = current()/@TYPE]"/><axsl:otherwise><svrl:failed-assert xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:schold="http://www.ascc.net/xml/schematron" test="@TYPE and document('../vocab/strukturdatenset.rdf')//skos:Concept[skos:notation = current()/@TYPE]"><axsl:attribute name="location"><axsl:apply-templates select="." mode="schematron-get-full-path"/></axsl:attribute><svrl:text>
+<axsl:choose><axsl:when test="@TYPE and document('http://dmaus.name/rdf/dfgviewer-schema/strukturdatenset.rdf')//skos:Concept[skos:notation = current()/@TYPE]"/><axsl:otherwise><svrl:failed-assert xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:schold="http://www.ascc.net/xml/schematron" test="@TYPE and document('http://dmaus.name/rdf/dfgviewer-schema/strukturdatenset.rdf')//skos:Concept[skos:notation = current()/@TYPE]"><axsl:attribute name="location"><axsl:apply-templates select="." mode="schematron-get-full-path"/></axsl:attribute><svrl:text>
         Im Attribut @TYPE muss die Art des Strukturelements näher bezeichnet werden. Es sind nur Werte aus der
         DFG-Viewer-Strukturdatenliste erlaubt.
       </svrl:text></svrl:failed-assert></axsl:otherwise></axsl:choose><axsl:apply-templates select="@*|*" mode="M7"/></axsl:template>
@@ -205,7 +205,7 @@
 <axsl:template match="mets:fileGrp" priority="1002" mode="M10"><svrl:fired-rule xmlns:svrl="http://purl.oclc.org/dsdl/svrl" context="mets:fileGrp"/>
 
 		<!--ASSERT -->
-<axsl:choose><axsl:when test="document('../vocab/filegrp-use.rdf')//skos:Concept[skos:notation = current()/@USE]"/><axsl:otherwise><svrl:failed-assert xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:schold="http://www.ascc.net/xml/schematron" test="document('../vocab/filegrp-use.rdf')//skos:Concept[skos:notation = current()/@USE]"><axsl:attribute name="location"><axsl:apply-templates select="." mode="schematron-get-full-path"/></axsl:attribute><svrl:text>
+<axsl:choose><axsl:when test="document('http://dmaus.name/rdf/dfgviewer-schema/filegrp-use.rdf')//skos:Concept[skos:notation = current()/@USE]"/><axsl:otherwise><svrl:failed-assert xmlns:svrl="http://purl.oclc.org/dsdl/svrl" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:schold="http://www.ascc.net/xml/schematron" test="document('http://dmaus.name/rdf/dfgviewer-schema/filegrp-use.rdf')//skos:Concept[skos:notation = current()/@USE]"><axsl:attribute name="location"><axsl:apply-templates select="." mode="schematron-get-full-path"/></axsl:attribute><svrl:text>
         Der Wert des @USE-Attributs muss aus der Liste der zulässigen Werte stammen.
       </svrl:text></svrl:failed-assert></axsl:otherwise></axsl:choose><axsl:apply-templates select="@*|*" mode="M10"/></axsl:template>
 
