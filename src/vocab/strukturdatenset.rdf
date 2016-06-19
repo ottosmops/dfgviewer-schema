@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
   <skos:ConceptScheme rdf:nodeID="strukturdatenset">
     <dc:title xml:lang="de">Strukturdatenset des DFG-Viewer</dc:title>
     <rdfs:seeAlso rdf:resource="http://dfg-viewer.de/strukturdatenset/"/>
   </skos:ConceptScheme>
+  <skos:Concept rdf:ID="act">
+    <skos:notation>act</skos:notation>
+    <skos:prefLabel xml:lang="de">Urkunde</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">act</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="additional">
     <skos:notation>additional</skos:notation>
     <skos:prefLabel xml:lang="de">Beilage</skos:prefLabel>
@@ -16,6 +22,12 @@
     <skos:prefLabel xml:lang="en">address</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
+  <skos:Concept rdf:ID="album">
+    <skos:notation>album</skos:notation>
+    <skos:prefLabel xml:lang="de">Album</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">album</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="annotation">
     <skos:notation>annotation</skos:notation>
     <skos:prefLabel xml:lang="de">Annotation</skos:prefLabel>
@@ -26,6 +38,12 @@
     <skos:notation>article</skos:notation>
     <skos:prefLabel xml:lang="de">Artikel</skos:prefLabel>
     <skos:prefLabel xml:lang="en">article</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="atlas">
+    <skos:notation>atlas</skos:notation>
+    <skos:prefLabel xml:lang="de">Atlas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">atlas</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
   <skos:Concept rdf:ID="bachelor_thesis">
@@ -44,6 +62,12 @@
     <skos:notation>bookplate</skos:notation>
     <skos:prefLabel xml:lang="de">Exlibris</skos:prefLabel>
     <skos:prefLabel xml:lang="en">bookplate</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="cartulary">
+    <skos:notation>cartulary</skos:notation>
+    <skos:prefLabel xml:lang="de">Kartular</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">cartulary</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
   <skos:Concept rdf:ID="chapter">
@@ -124,6 +148,18 @@
     <skos:prefLabel xml:lang="en">doctoral thesis</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
+  <skos:Concept rdf:ID="document">
+    <skos:notation>document</skos:notation>
+    <skos:prefLabel xml:lang="de">Dokument</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">document</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="dossier">
+    <skos:notation>dossier</skos:notation>
+    <skos:prefLabel xml:lang="de">Vorgang</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">dossier</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="edge">
     <skos:notation>edge</skos:notation>
     <skos:prefLabel xml:lang="de">Schnitt</skos:prefLabel>
@@ -154,10 +190,28 @@
     <skos:prefLabel xml:lang="en">fascicle</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
+  <skos:Concept rdf:ID="file">
+    <skos:notation>file</skos:notation>
+    <skos:prefLabel xml:lang="de">Akte</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">file</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="folder">
+    <skos:notation>folder</skos:notation>
+    <skos:prefLabel xml:lang="de">Mappe</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">folder</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="fragment">
     <skos:notation>fragment</skos:notation>
     <skos:prefLabel xml:lang="de">Fragment</skos:prefLabel>
     <skos:prefLabel xml:lang="en">fragment</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="ground_plan">
+    <skos:notation>ground_plan</skos:notation>
+    <skos:prefLabel xml:lang="de">Grundriss</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">ground plan</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
   <skos:Concept rdf:ID="habilitation_thesis">
@@ -170,6 +224,12 @@
     <skos:notation>illustration</skos:notation>
     <skos:prefLabel xml:lang="de">Illustration</skos:prefLabel>
     <skos:prefLabel xml:lang="en">illustration</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="image">
+    <skos:notation>image</skos:notation>
+    <skos:prefLabel xml:lang="de">Bild</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">image</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
   <skos:Concept rdf:ID="imprint">
@@ -192,10 +252,28 @@
   </skos:Concept>
   <skos:Concept rdf:ID="issue">
     <skos:notation>issue</skos:notation>
-    <skos:prefLabel xml:lang="de">Ausgabe</skos:prefLabel>
-    <skos:altLabel xml:lang="de">Heft</skos:altLabel>
+    <skos:prefLabel xml:lang="de">Ausgabe (auch: Heft)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">issue</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
-  <skos:prefLabel xml:lang="en">issue</skos:prefLabel></skos:Concept>
+  </skos:Concept>
+  <skos:Concept rdf:ID="judgement">
+    <skos:notation>judgement</skos:notation>
+    <skos:prefLabel xml:lang="de">Urteil</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">judgement</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="land_register">
+    <skos:notation>land_register</skos:notation>
+    <skos:prefLabel xml:lang="de">Grundbuch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">land register</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="leaflet">
+    <skos:notation>leaflet</skos:notation>
+    <skos:prefLabel xml:lang="de">Flugblatt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">leaflet</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="lecture">
     <skos:notation>lecture</skos:notation>
     <skos:prefLabel xml:lang="de">Vorlesung</skos:prefLabel>
@@ -262,6 +340,18 @@
     <skos:prefLabel xml:lang="en">newspaper</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
+  <skos:Concept rdf:ID="note">
+    <skos:notation>note</skos:notation>
+    <skos:prefLabel xml:lang="de">Vermerk</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">note</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="official_notification">
+    <skos:notation>official_notification</skos:notation>
+    <skos:prefLabel xml:lang="de">Bescheid</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">official notification</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="ornament">
     <skos:notation>ornament</skos:notation>
     <skos:prefLabel xml:lang="de">Buchschmuck</skos:prefLabel>
@@ -286,6 +376,24 @@
     <skos:prefLabel xml:lang="en">periodical</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
+  <skos:Concept rdf:ID="photograph">
+    <skos:notation>photograph</skos:notation>
+    <skos:prefLabel xml:lang="de">Fotografie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">photograph</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="plan">
+    <skos:notation>plan</skos:notation>
+    <skos:prefLabel xml:lang="de">Plan</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">plan</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="poster">
+    <skos:notation>poster</skos:notation>
+    <skos:prefLabel xml:lang="de">Plakat</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">poster</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="preface">
     <skos:notation>preface</skos:notation>
     <skos:prefLabel xml:lang="de">Vorwort</skos:prefLabel>
@@ -296,6 +404,12 @@
     <skos:notation>preprint</skos:notation>
     <skos:prefLabel xml:lang="de">Vorabdruck</skos:prefLabel>
     <skos:prefLabel xml:lang="en">preprint</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="printed_archives">
+    <skos:notation>printed_archives</skos:notation>
+    <skos:prefLabel xml:lang="de">Druckerzeugnis (Archivale)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">printed archives</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
   <skos:Concept rdf:ID="printers_mark">
@@ -322,6 +436,12 @@
     <skos:prefLabel xml:lang="en">provenance</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
+  <skos:Concept rdf:ID="register">
+    <skos:notation>register</skos:notation>
+    <skos:prefLabel xml:lang="de">Amtsbuch</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">register</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
   <skos:Concept rdf:ID="report">
     <skos:notation>report</skos:notation>
     <skos:prefLabel xml:lang="de">Bericht</skos:prefLabel>
@@ -338,6 +458,12 @@
     <skos:notation>scheme</skos:notation>
     <skos:prefLabel xml:lang="de">Schema</skos:prefLabel>
     <skos:prefLabel xml:lang="en">scheme</skos:prefLabel>
+    <skos:inScheme rdf:nodeID="strukturdatenset"/>
+  </skos:Concept>
+  <skos:Concept rdf:ID="seal">
+    <skos:notation>seal</skos:notation>
+    <skos:prefLabel xml:lang="de">Siegel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">seal</skos:prefLabel>
     <skos:inScheme rdf:nodeID="strukturdatenset"/>
   </skos:Concept>
   <skos:Concept rdf:ID="section">
