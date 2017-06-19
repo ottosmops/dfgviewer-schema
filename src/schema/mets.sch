@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <schema xmlns="http://purl.oclc.org/dsdl/schematron" xml:lang="deu">
-  <title>Regeln des DFG-Viwer METS-Anwendungsprofil 2.1 (Entwurf)</title>
+  <title>Regeln des DFG-Viewer METS-Anwendungsprofil 2.1 (Entwurf)</title>
   <ns prefix="mets" uri="http://www.loc.gov/METS/"/>
   <ns prefix="xlink" uri="http://www.w3.org/1999/xlink"/>
   <ns prefix="tei" uri="http://www.tei-c.org/ns/1.0"/>
   <ns prefix="dv" uri="http://dfg-viewer.de/"/>
   <ns prefix="skos" uri="http://www.w3.org/2004/02/skos/core#"/>
-  <p>Dieses Dokument befindet sich zur Zeit (Juli 2014) noch in Bearbeitung.</p>
   <pattern>
     <title>Angaben zur logischen Dokumentenstruktur (2.1)</title>
     <rule context="mets:mets">
